@@ -31,6 +31,7 @@ Version 3 of the Snake Game.
             <li>The snake touches the boundaries of the playable screen</li>
         </ul>
     </li>
+    <li>High Score is tracked by writing to and reading from an external file labeled "data.txt"
 </ul>
 
 ##### Controls

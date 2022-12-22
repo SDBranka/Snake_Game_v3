@@ -10,7 +10,8 @@ screen = Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor("black")
 screen.title("My Snake Game v3")
-# set tracer to 0 to enable using the update method
+# set tracer to 0 turn off onscreen animations and 
+#   to enable using the update method
 screen.tracer(0)
 
 # create scoreboard
@@ -33,6 +34,7 @@ game_is_on = True
 while game_is_on:
     # print(scoreboard.message + str(scoreboard.score))
     screen.update()
+    # control screen update framerate
     time.sleep(0.1)
 
     snake.move()

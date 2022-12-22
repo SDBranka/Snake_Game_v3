@@ -1,8 +1,3 @@
-# create a new scoreboard class that inherits from
-# the turtle class. scoreboard will be a turtle that 
-# knows how to keep track of the score and how to 
-# display it in our program
-
 import turtle as t
 
 
